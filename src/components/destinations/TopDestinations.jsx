@@ -11,7 +11,7 @@ const TopDestinations = () => {
           data-aos="fade"
           data-aos-delay={item.delayAnimation}
         >
-          <Link
+          <Link style={{transform: "scale(1)"}}
             to="/tour-list-v3"
             className="citiesCard -type-3 d-block h-full rounded-4 "
           >
