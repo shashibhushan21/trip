@@ -34,7 +34,9 @@ const HotelListPage1 = () => {
                 <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel</h1>
               </div>
               {/* End text-center */}
+
               <MainFilterSearchBox />
+              {/* <MainFilterSearchBox /> */}
             </div>
             {/* End col-12 */}
           </div>

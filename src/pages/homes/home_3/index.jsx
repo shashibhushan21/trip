@@ -16,7 +16,7 @@ import WhyChoose from "@/components/home/home-3/WhyChoose";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Home-3 || Trip - Travel & Tour",
+  title: "Home-3 || Trip - Travel &",
   description: "Trip - Travel & Tour",
 };
 

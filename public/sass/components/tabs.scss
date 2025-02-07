@@ -110,6 +110,37 @@
   }
 }
 
+.tabs.-bookmarks .tabs {
+  &__controls {
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+
+    > div {
+      scroll-snap-align: center;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.3;
+    transition: all 0.2s $easeOutQuart;
+
+    &:hover {
+      color: var(--color-blue) !important;
+    }
+
+    &.is-tab-el-active {
+      color: var(--color-dark-1) !important;
+      background-color: white;
+    }
+  }
+}
+
+
+
 .tabs.-bookmark-2 .tabs {
   &__controls {
     position: relative;
