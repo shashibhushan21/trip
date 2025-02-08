@@ -12,7 +12,7 @@ const TopDestinations = () => {
           data-aos-delay={item.delayAnimation}
         >
           <Link style={{transform: "scale(1)"}}
-            to="/tour-list-v3"
+            to="/destinations"
             className="citiesCard -type-3 d-block h-full rounded-4 "
           >
             <div className="citiesCard__image ratio ratio-1:1">
