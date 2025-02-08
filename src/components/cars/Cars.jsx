@@ -74,7 +74,7 @@ const Cars = () => {
             data-aos="fade"
             data-aos-delay={item.delayAnimation}
           >
-            <Link
+            <Link style={{transform: "scale(1)"}}
               to={`/car-single/5`}
               className="carCard -type-1 d-block rounded-4 hover-inside-slider"
             >

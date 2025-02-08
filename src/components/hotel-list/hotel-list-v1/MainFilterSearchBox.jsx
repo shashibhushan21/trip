@@ -14,14 +14,14 @@ const MainFilterSearchBox = () => {
 
   return (
     <>
-      <div className="tabs -bookmarks js-tabs ml-70 mr-60 lg:mr-0  lg:ml-0  ">
+      <div className="tabs -bookmarks js-tabs ml-120 mr-0 lg:mr-0  lg:ml-0 pt-20" >
         <div className="tabs__controls d-flex items-center js-tabs-controls">
           {tabs?.map((tab) => (
             <button 
               key={tab?.id}
-              className={`tabs__button px-40 py-20 rounded-4 fw-600 text-white js-tabs-button ${
+              className={`tabs__button  px-60 py-20 rounded-top-2 fw-600 text-white js-tabs-button ${
                 tab?.name === currentTab ? "is-tab-el-active" : ""
-              }`} 
+              }` } style={{gap: "8px"}}
               onClick={() => dispatch(addCurrentTab(tab?.name))}
             >
               <i className={`${tab.icon} text-20 mr-10`}></i>
@@ -31,9 +31,9 @@ const MainFilterSearchBox = () => {
         </div>
       </div>
 
-      <div className="tabs__content js-tabs-content  ml-70 mr-60 lg:mr-0  lg:ml-0" >
-        <div className="mainSearch bg-white pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4">
-          <div className="button-grid items-center">
+      <div className="tabs__content js-tabs-content  ml-120 mr-120 lg:mr-0  lg:ml-0" >
+        <div className="mainSearch bg-white  pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4">
+          <div className="button-grid items-center ">
             <LocationSearch />
             {/* End Location */}
 
@@ -53,7 +53,7 @@ const MainFilterSearchBox = () => {
             <div className="button-item">
               <button
                 className="mainSearch__submit button -dark-1 py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white"
-                onClick={() => navigate("/hotel-list-v3")}
+                onClick={() => navigate("#")}
               >
                 <i className="icon-search text-20 mr-10" />
                 Search
