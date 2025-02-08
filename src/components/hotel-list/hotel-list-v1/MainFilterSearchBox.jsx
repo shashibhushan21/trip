@@ -19,9 +19,9 @@ const MainFilterSearchBox = () => {
           {tabs?.map((tab) => (
             <button 
               key={tab?.id}
-              className={`tabs__button  px-60 py-20 rounded-top-2 fw-600 text-white js-tabs-button ${
+              className={`tabs__button  px-40 py-20 rounded-top-2 fw-600 text-white js-tabs-button ${
                 tab?.name === currentTab ? "is-tab-el-active" : ""
-              }` } style={{gap: "8px"}}
+              }` } style={{gap: "12px"}}
               onClick={() => dispatch(addCurrentTab(tab?.name))}
             >
               <i className={`${tab.icon} text-20 mr-10`}></i>
