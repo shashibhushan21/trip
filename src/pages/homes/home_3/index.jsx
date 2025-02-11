@@ -15,6 +15,8 @@ import WhyChoose from "@/components/home/home-3/WhyChoose";
 
 import MetaComponent from "@/components/common/MetaComponent";
 import { scales } from "chart.js";
+import CallToActions from "@/components/common/CallToActions";
+import DefaultFooter from "@/components/footer/default";
 
 const metadata = {
   title: "Home-3 || Trip - Travel &",
@@ -308,7 +310,12 @@ const Home_3 = () => {
 
       
 
-      <Footer3 />
+      {/* <Footer3 /> */}
+
+      <CallToActions />
+      {/* End Call To Actions Section */}
+
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );
