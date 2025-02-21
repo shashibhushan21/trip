@@ -11,9 +11,9 @@ const Overview = () => {
         2-room terraced house on 2 levels. Comfortable and cosy furnishings: 1
         room with 1 french bed and radio. Shower, sep. WC. Upper floor: (steep
         stair) living/dining room with 1 sofabed (110 cm, length 180 cm), TV.
-        Exit to the balcony. Small kitchen (2 hot plates, oven,
+        Exit to the balcony. Small kitchen 2 hot plates, oven,
       </p>
-      <a
+      <a style={{ transform: "scale(1)" }}
         href="#"
         className="d-block text-14 text-blue-1 fw-500 underline mt-10"
       >

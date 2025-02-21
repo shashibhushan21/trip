@@ -47,9 +47,10 @@ a {
   font-size: inherit;
   line-height: inherit;
   font-weight: inherit;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
   text-decoration: none;
   color: #000;
+  transition: 0.3s ease-in-out;
 
   &:hover {
     text-decoration: none;

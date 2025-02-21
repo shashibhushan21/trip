@@ -21,7 +21,7 @@ const IntroTown = () => {
           Westfield Shopping Centers, and areas referenced and seen in
           literature and film.
         </p>
-        <a
+        <a style={{ transform: "scale(1)" }}
           href="#"
           className="d-block text-14 fw-500 text-blue-1 underline mt-20"
         >
