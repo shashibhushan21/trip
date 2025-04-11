@@ -12,7 +12,7 @@ const MainFilterSearchBox = () => {
 
   return (
     <>
-      <div className="tabs -bookmark js-tabs">
+      {/* <div className="tabs -bookmark js-tabs">
         <div className="tabs__controls d-flex items-center js-tabs-controls">
           {tabs?.map((tab) => (
             <button
@@ -27,7 +27,7 @@ const MainFilterSearchBox = () => {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="tabs__content js-tabs-content">
         <div className="mainSearch bg-white pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4">
